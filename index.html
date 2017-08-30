@@ -2,14 +2,8 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Psychic Game</title>
+    <title>Hangman Game</title>
 
-    <script 
-      src="https://code.jquery.com/jquery-3.2.1.min.js"
-      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous">
-    </script>
-    <script src="assets/javascript/game.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
   </head>
@@ -19,7 +13,7 @@
   <p>Press any key to get started!</p>
 
   <h3>Current word:</h3>
-  <h3 id="currentWord"></h3>
+  <p id="current"></p>
 
   <h3>Number of guesses remaining:</h3>
   <h3 id="guessesRemain"></h3>
@@ -27,5 +21,12 @@
   <h3>Letters already guessed:</h3>
   <h3 id="lettersGuessed"></h3>
   
+  <script 
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </body>
   </body>
 </html>
